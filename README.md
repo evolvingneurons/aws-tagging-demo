@@ -7,6 +7,7 @@ This execution plan will deploy the following AWS resources:
 - (1) VPC
 - (2) Private subnets
 - (2) Public subnets
+- (1) Internet gateway
 - (2) security groups
 - (1) EC2 t2.micro instance
 - (1) 20GB EBS volume attached to the EC2 instance
