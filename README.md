@@ -4,14 +4,14 @@ Example Terraform execution plan that demonstrates the use of AWS tags to label 
 ## Details
 
 This execution plan will deploy the following AWS resources:
- (1) VPC
- (2) Private subnets
- (2) Public subnets
- (2) security groups
- (1) EC2 t2.micro instance
- (1) 20GB EBS volume attached to the EC2 instance
- (1) Two node Aurora MySQL database cluster
- 
+- (1) VPC
+- (2) Private subnets
+- (2) Public subnets
+- (2) security groups
+- (1) EC2 t2.micro instance
+- (1) 20GB EBS volume attached to the EC2 instance
+- (1) Two node Aurora MySQL database cluster
+
  ##  High Level Instructions for Lab Use
  
  These instructions assume basic knowledge of AWS, systems administration, and Terraform. To run this Terraform plan on your local machine, perform the following:
